@@ -1,3 +1,28 @@
-.MuiTableCell-root {
-  @apply font-mono
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+}
+
+.dark .MuiDataGrid-cell {
+  color: white;
+}
+
+.dark .MuiTablePagination-root {
+  color: white;
+}
+
+.dark .MuiDataGrid-columnHeaderDraggableContainer {
+  background-color: rgb(17 24 39);
+  color: white;
+}
+
+.dark .MuiDataGrid-columnHeaders {
+  background-color: rgb(17 24 39);
+}
+
+.dark .MuiDataGrid-columnHeader {
+  background-color: rgb(17 24 39);
 }
